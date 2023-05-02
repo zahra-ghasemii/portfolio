@@ -43,8 +43,8 @@ function Contact() {
             <h4>
               <Trans i18nKey={"email"} />
             </h4>
-            <h5>sha.hamidi10@gmail.com</h5>
-            <a href="mailto:sha.hamidi10@gmail.com">
+            <h5>ghz40534@gmail.com</h5>
+            <a href="mailto:ghz40534@gmail.com">
               <Trans i18nKey={"sendAmessage"} />
             </a>
           </article>
@@ -53,7 +53,7 @@ function Contact() {
             <h4>
               <Trans i18nKey={"facebook"} />
             </h4>
-            <h5>Shayan Hamidi</h5>
+            <h5>Zahra Ghasemi</h5>
             <a href="https://www.facebook.com/profile.php?id=100072877444506">
               <Trans i18nKey={"sendAmessage"} />
             </a>
@@ -63,7 +63,7 @@ function Contact() {
             <h4>
               <Trans i18nKey={"whatsApp"} />
             </h4>
-            <h5>989301023512</h5>
+            <h5>989101696915</h5>
             <a href="https://api.whatsapp.com/send?phone=+989301023512">
               <Trans i18nKey={"sendAmessage"} />
             </a>

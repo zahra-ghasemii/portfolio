@@ -12,29 +12,25 @@ function Portfolio() {
       id: 1,
       image: IMG1,
       title: t("portfolio1title"),
-      // github: "https://github.com/alireza-phy/snapp-market-react",
-      // demo: "https://github.com",
+      demo: "https://www.figma.com/file/VT20tBdKsnBk9FjdUpqMde/Flower-store?node-id=0%3A1&t=R1C9d0OPQmV4LJ4G-1",
     },
     {
       id: 2,
       image: IMG2,
       title: t("portfolio2title"),
-      // github: "https://github.com/shayan-hamidi/onlineShopReact",
-      // demo: "https://shayan-hamidi.github.io/onlineShopReact/",
+      demo: "https://www.figma.com/file/spT5q6ogJZZpGIJXUmxH0b/First-Project-(Responsive)?node-id=0%3A1&t=YLLBfN1C1Du31ojU-1",
     },
     {
       id: 3,
       image: IMG3,
       title: t("portfolio3title"),
-      // github: "https://github.com/shayan-hamidi/dashboard-nodin-soft",
-      // demo: "https://github.com",
+      demo: "https://www.figma.com/file/bJv7Xwvoo8gQsg0YKbbxKd/Dashboard?node-id=0%3A1&t=icSbr6uwgmUCN31f-1",
     },
     {
       id: 4,
       image: IMG4,
       title: t("portfolio4title"),
-      // github: "https://github.com/shayan-hamidi/tamrin-UI-films",
-      // demo: "https://shayan-hamidi.github.io/tamrin-UI-films/",
+      demo: "https://www.figma.com/file/VdRd4oOaXwjyQApvHKspWf/Music-App?node-id=0%3A1&t=4IFz56Qk8u7pUQyx-1",
     },
   ];
   return (

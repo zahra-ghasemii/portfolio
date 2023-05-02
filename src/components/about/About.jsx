@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/about-me.png";
+import Zahra from "../../assets/zahra2.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { GoProject } from "react-icons/go";
@@ -16,7 +16,7 @@ const About = () => {
       </h2>
       <div className="container about__container">
         <div className="about__me">
-          <img src={ME} alt="About" />
+          <img src={Zahra} alt="About" />
         </div>
         <div className="about__content">
           <div className="about__cards">

@@ -1,9 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/Golshenas.jpeg";
-import AVTR2 from "../../assets/Khani.jpeg";
-// import AVTR3 from "../../assets/avatar3.jpg";
-// import AVTR4 from "../../assets/avatar4.jpg";
+import Shayan from "../../assets/testimonials/Shayan.jpg";
+import Mahdis from "../../assets/testimonials/mahdis.jpg";
 import { Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -13,29 +11,17 @@ function Testimonials() {
   const { t } = useTranslation();
   const data = [
     {
-      avatar: AVTR1,
-      name: t("HamedGolshenas"),
-      position: t("HamedGolshenasP"),
-      review: t("HamedGolshenasC"),
+      avatar: Shayan,
+      name: t("ShayanHamidi"),
+      position: t("ShayanHamidiP"),
+      review: t("ShayanHamidiC"),
     },
     {
-      avatar: AVTR2,
-      name: t("MohammadKhani"),
-      position: t("MohammadKhaniP"),
-      review: t("MohammadKhaniC"),
+      avatar: Mahdis,
+      name: t("MahdisNazemi"),
+      // position: t("MahdisNazemiP"),
+      review: t("MahdisNazemiC"),
     },
-    // {
-    //   avatar: AVTR3,
-    //   name: "Tina Snow",
-    //   review:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi obcaecati facere ut rerum, deleniti in enim nobis? Sequi hic quasi magnam inventore quos dicta corrupti nulla eveniet rem autem.",
-    // },
-    // {
-    //   avatar: AVTR4,
-    //   name: "Tina Snow",
-    //   review:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi obcaecati facere ut rerum, deleniti in enim nobis? Sequi hic quasi magnam inventore quos dicta corrupti nulla eveniet rem autem.",
-    // },
   ];
   return (
     <section id="testimonials">

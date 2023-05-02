@@ -34,7 +34,7 @@ header {
 }
 /* ==================== ME ==================== */
 .me {
-  background: linear-gradient(#b8e1ff, var(--color-primary), transparent);
+  background: linear-gradient(#22022f, #785d7a, transparent);
   width: 22rem;
   height: 30rem;
   margin: 0 auto;
@@ -60,7 +60,7 @@ header {
     height: 850px;
   }
   .me {
-    background: linear-gradient(#b8e1ff, var(--color-primary), transparent);
+    /* background: linear-gradient(#b8e1ff, var(--color-primary), transparent); */
     width: 22rem;
     height: 30rem;
     margin: 0 auto;
@@ -80,7 +80,7 @@ header {
     display: none;
   }
   .me {
-    background: linear-gradient(#b8e1ff, var(--color-primary), transparent);
+    /* background: linear-gradient(#b8e1ff, var(--color-primary), transparent); */
     width: 17rem;
     height: 30rem;
     margin: 0 auto;

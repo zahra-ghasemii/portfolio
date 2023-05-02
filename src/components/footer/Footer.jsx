@@ -7,12 +7,6 @@ import USflag from "../../assets/languages/USflag.png";
 function Footer({ setLang, setDirection }) {
   return (
     <footer>
-      <a
-        href="https://www.instagram.com/_about_shine_/"
-        className="footer__logo"
-      >
-        SHINE
-      </a>
       <ul className="permalinks">
         <li>
           <a href="#header">
