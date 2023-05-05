@@ -46,7 +46,7 @@ function Footer({ setLang, setDirection }) {
       </ul>
       <div className="footer__socials">
         <a
-          href="https://github.com/zahra-ghasemii"
+          href="https://t.me/zahra_zghh"
           target={"_blank"}
           rel="noreferrer"
         >
