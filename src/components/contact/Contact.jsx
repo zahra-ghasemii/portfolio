@@ -10,7 +10,6 @@ import { t } from "i18next";
 function Contact() {
   const form = useRef();
   const constsendEmail = (e) => {
-    console.log(e)
     e.preventDefault();
     emailjs
       .sendForm(
