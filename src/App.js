@@ -11,6 +11,7 @@ import Particle from "./components/particle/Particle";
 import Dialog from "./components/dialog/Dialog";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import Certificates from "./components/certificates/Certificates";
 function App() {
   const [open, setOpen] = useState(true);
   const { i18n } = useTranslation();
@@ -42,6 +43,7 @@ function App() {
       <About />
       <Experience />
       <Portfolio />
+      <Certificates />
       <Testimonials />
       <Contact />
       <Footer setLang={setLang} setDirection={setDirection} />

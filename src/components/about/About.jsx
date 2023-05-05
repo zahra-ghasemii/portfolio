@@ -19,7 +19,7 @@ const About = () => {
           <img src={Zahra} alt="About" />
         </div>
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>
@@ -47,7 +47,7 @@ const About = () => {
                 10+ <Trans i18nKey={"completed"} />
               </small>
             </article>
-          </div>
+          </div> */}
           <p>
             <Trans i18nKey={"aboutMeDescription"} />
           </p>

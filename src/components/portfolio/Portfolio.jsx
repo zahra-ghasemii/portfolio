@@ -4,6 +4,7 @@ import IMG1 from "../../assets/projects/project1.jpg";
 import IMG2 from "../../assets/projects/project2.jpg";
 import IMG3 from "../../assets/projects/project3.jpg";
 import IMG4 from "../../assets/projects/project4.jpg";
+import IMG5 from "../../assets/projects/project5.jpg";
 import { Trans, useTranslation } from "react-i18next";
 function Portfolio() {
   const { t } = useTranslation();
@@ -31,6 +32,12 @@ function Portfolio() {
       image: IMG4,
       title: t("portfolio4title"),
       demo: "https://www.figma.com/file/VdRd4oOaXwjyQApvHKspWf/Music-App?node-id=0%3A1&t=4IFz56Qk8u7pUQyx-1",
+    },
+    {
+      id: 5,
+      image: IMG5,
+      title: t("portfolio5title"),
+      demo: "https://www.figma.com/file/F7EPonswjfS7qER75D73bM/reservation?type=design&node-id=0%3A1&t=gVkVkwrmjoJKj74n-1",
     },
   ];
   return (
@@ -67,7 +74,7 @@ function Portfolio() {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <Trans i18nKey={"liveDemo"} />
+                    <Trans i18nKey={"viewOnFigma"} />
                   </a>
                 ) : null}
               </div>

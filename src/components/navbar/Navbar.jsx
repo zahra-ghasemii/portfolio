@@ -4,7 +4,8 @@ import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BsBook } from "react-icons/bs";
 import { RiContactsBook2Line } from "react-icons/ri";
-import {VscProject} from "react-icons/vsc";
+import { VscProject } from "react-icons/vsc";
+import { TbCertificate } from "react-icons/tb";
 import { useState } from "react";
 function Navbar() {
   const [activeNav, setActiveNav] = useState("#");
@@ -37,6 +38,13 @@ function Navbar() {
         className={activeNav === "#services" ? "active" : ""}
       >
         <VscProject />
+      </a>
+      <a
+        href="#certificates"
+        onClick={() => setActiveNav("#certificates")}
+        className={activeNav === "#certificates" ? "active" : ""}
+      >
+        <TbCertificate />
       </a>
       <a
         href="#contact"
