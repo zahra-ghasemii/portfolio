@@ -13,10 +13,10 @@ function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_5rh7syn",
-        "template_sl0onaa",
+        "service_k0h4ndn",
+        "template_8v6ck0d",
         form.current,
-        "JmK7QIb4jhfmMc7K-"
+        "2cpPuHyr9zKJmlQdu"
       )
       .then(
         (result) => {
