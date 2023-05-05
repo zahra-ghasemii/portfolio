@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { Trans } from "react-i18next";
 import IRflag from "../../assets/languages/IRflag.png";
 import USflag from "../../assets/languages/USflag.png";
