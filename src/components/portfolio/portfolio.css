@@ -9,6 +9,15 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.portfolio__item p {
+  font-size: 0.75em;
+  margin-bottom: 1rem;
+  color: #96959d;
+  min-height: 175px;
 }
 .portfolio__item:hover {
   border-color: var(--color-bg-variant);

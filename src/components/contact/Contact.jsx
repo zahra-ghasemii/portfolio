@@ -3,17 +3,18 @@ import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
-import { AiFillFacebook } from "react-icons/ai";
+import { BsTelegram } from "react-icons/bs";
 import { Trans } from "react-i18next";
 import { t } from "i18next";
 
 function Contact() {
   const form = useRef();
   const constsendEmail = (e) => {
+    console.log(e)
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_gdignkb",
+        "service_5rh7syn",
         "template_sl0onaa",
         form.current,
         "JmK7QIb4jhfmMc7K-"
@@ -49,12 +50,12 @@ function Contact() {
             </a>
           </article>
           <article className="contact__option">
-            <AiFillFacebook className="contact__option-icon" />
+            <BsTelegram className="contact__option-icon" />
             <h4>
-              <Trans i18nKey={"facebook"} />
+              <Trans i18nKey={"telegram"} />
             </h4>
             <h5>Zahra Ghasemi</h5>
-            <a href="https://www.facebook.com/profile.php?id=100072877444506">
+            <a href="https://t.me/zahra_zghh">
               <Trans i18nKey={"sendAmessage"} />
             </a>
           </article>
@@ -64,7 +65,7 @@ function Contact() {
               <Trans i18nKey={"whatsApp"} />
             </h4>
             <h5>989101696915</h5>
-            <a href="https://api.whatsapp.com/send?phone=+989301023512">
+            <a href="https://wa.me/+989101696915">
               <Trans i18nKey={"sendAmessage"} />
             </a>
           </article>
