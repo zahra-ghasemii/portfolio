@@ -53,7 +53,7 @@ function Contact() {
             <h4>
               <Trans i18nKey={"telegram"} />
             </h4>
-            <h5>Zahra Ghasemi</h5>
+            <h5>989101696915</h5>
             <a href="https://t.me/zahra_zghh">
               <Trans i18nKey={"sendAmessage"} />
             </a>
