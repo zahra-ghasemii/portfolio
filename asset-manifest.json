@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6f68c40c.css",
+    "main.js": "/portfolio/static/js/main.1c5a9544.js",
+    "static/media/zahra1.png": "/portfolio/static/media/zahra1.dd924af3117589f89ea6.png",
+    "static/media/SGKara-Regular.ttf": "/portfolio/static/media/SGKara-Regular.3e1bab766d2dab619ada.ttf",
+    "static/media/persianCV.pdf": "/portfolio/static/media/persianCV.072033723cda08b3e39d.pdf",
+    "static/media/englishCv.pdf": "/portfolio/static/media/englishCv.053584b4de8425fbaff9.pdf",
+    "static/media/zahra2.jpg": "/portfolio/static/media/zahra2.9f778431c390bf222f87.jpg",
+    "static/media/mahdis.jpg": "/portfolio/static/media/mahdis.46cf38782b853074ea43.jpg",
+    "static/media/Shayan.jpg": "/portfolio/static/media/Shayan.2448c2222daf8175779c.jpg",
+    "static/media/project5.jpg": "/portfolio/static/media/project5.8eb8c977b7e5c6627478.jpg",
+    "static/media/queraFront.jpg": "/portfolio/static/media/queraFront.c361d062cf1ea2fc9756.jpg",
+    "static/media/project4.jpg": "/portfolio/static/media/project4.675019007117b3da242e.jpg",
+    "static/media/metaUx.jpg": "/portfolio/static/media/metaUx.92ac835de52bcf7e816d.jpg",
+    "static/media/googleUx.jpg": "/portfolio/static/media/googleUx.607efd338a42bd15179e.jpg",
+    "static/media/project2.jpg": "/portfolio/static/media/project2.d7a44c9670a236b7b7b1.jpg",
+    "static/media/project3.jpg": "/portfolio/static/media/project3.7b6188e2047d3fc4a3ac.jpg",
+    "static/media/project1.jpg": "/portfolio/static/media/project1.8c4f9ca9b6ca2e57635c.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.6f68c40c.css.map": "/portfolio/static/css/main.6f68c40c.css.map",
+    "main.1c5a9544.js.map": "/portfolio/static/js/main.1c5a9544.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f68c40c.css",
+    "static/js/main.1c5a9544.js"
+  ]
+}
